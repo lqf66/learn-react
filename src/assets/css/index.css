@@ -1,0 +1,30 @@
+.nav a {
+  font: 18px/2 '宋体';
+  text-decoration: none;
+  color: #000;
+}
+
+.nav .active {
+  color: red;
+  font-weight: bold;
+}
+
+.nav .indexActive {
+  color: green;
+  font-weight: bold;
+}
+
+.list-nav {
+  border-bottom: 1px solid #000;
+  font: 14px/30px "宋体";
+}
+
+.list-nav a {
+  color: #000;
+  text-decoration: none;
+}
+
+.list-nav .active {
+  text-decoration: underline;
+  color: indianred;
+}
