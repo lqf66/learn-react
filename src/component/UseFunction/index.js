@@ -1,11 +1,3 @@
-/*
- * @Author: Lqf
- * @Date: 2021-10-31 19:50:35
- * @LastEditors: Lqf
- * @LastEditTime: 2021-11-05 18:55:58
- * @Description: 我添加了修改
- */
-
 /**
  * useState
  *    const [state, setState] = useState(initialState);
@@ -43,7 +35,7 @@
 import { useState } from 'react'
 import Child from './child'
 
-function App (props) {
+function App(props) {
   const [show, setShow] = useState(false)
 
   return <div>

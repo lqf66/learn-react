@@ -1,11 +1,4 @@
-/*
- * @Author: Lqf
- * @Date: 2021-11-14 20:59:34
- * @LastEditors: Lqf
- * @LastEditTime: 2021-11-14 21:04:55
- * @Description: 我添加了修改
- */
-function Total ({ shops }) {
+function Total({ shops }) {
   let nubs = 0
   let prices = 0
   let maxPrice = 0

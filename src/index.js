@@ -1,11 +1,3 @@
-/*
- * @Author: Lqf
- * @Date: 2021-11-05 20:39:39
- * @LastEditors: Lqf
- * @LastEditTime: 2021-12-04 19:21:57
- * @Description: 我添加了修改
- */
-
 import ReactDOM from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'
 import { Provider } from 'react-redux'

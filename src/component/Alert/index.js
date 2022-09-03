@@ -1,14 +1,6 @@
-/*
- * @Author: Lqf
- * @Date: 2021-12-05 15:46:26
- * @LastEditors: Lqf
- * @LastEditTime: 2021-12-05 15:58:11
- * @Description: 我添加了修改
- */
-
 import { useEffect } from 'react'
 import ReactDOM from 'react-dom'
-function Alert ({ info, close }) {
+function Alert({ info, close }) {
   useEffect(() => {
     return () => {
       console.log('组件卸载')
@@ -25,7 +17,7 @@ function Alert ({ info, close }) {
   </div>
 }
 
-function rc_alert (info) {
+function rc_alert(info) {
   const alertWrap = document.createElement('div')
   document.body.appendChild(alertWrap)
   const close = () => {

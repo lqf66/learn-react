@@ -1,11 +1,3 @@
-/*
- * @Author: Lqf
- * @Date: 2021-10-30 15:51:59
- * @LastEditors: Lqf
- * @LastEditTime: 2021-10-31 13:12:34
- * @Description: 我添加了修改
- */
-
 import { PureComponent, createRef } from "react"
 
 class Todo extends PureComponent {
@@ -18,7 +10,7 @@ class Todo extends PureComponent {
   }
   edit = createRef()
   todoWrap = createRef()
-  componentDidUpdate (prevProps, prevState) {
+  componentDidUpdate(prevProps, prevState) {
     // 非编辑状态转入编辑状态
     if (!prevState.isEdit && this.state.isEdit) {
       this.edit.current.focus()
@@ -28,7 +20,7 @@ class Todo extends PureComponent {
   //   // 返回 true 时更新
   //   return nextProps.data !== this.props.data
   // }
-  render () {
+  render() {
     const { isEdit, editVal } = this.state
     const { data, changeDone, removeTodo, editTodo } = this.props
     const { id, title, done } = data

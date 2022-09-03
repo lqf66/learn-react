@@ -1,17 +1,9 @@
-/*
- * @Author: Lqf
- * @Date: 2021-10-30 15:40:02
- * @LastEditors: Lqf
- * @LastEditTime: 2021-11-04 23:47:54
- * @Description: 我添加了修改
- */
-
 import { useState } from "react"
 import './index.css'
 import States from "./states"
 import Todos from "./todos"
 
-function TodoList () {
+function TodoList() {
   const [data, setData] = useState([
     {
       id: 1,

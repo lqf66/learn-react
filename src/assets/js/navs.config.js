@@ -1,15 +1,8 @@
-/*
- * @Author: Lqf
- * @Date: 2021-11-27 17:13:34
- * @LastEditors: Lqf
- * @LastEditTime: 2021-12-06 21:56:37
- * @Description: 我添加了修改
- */
 const navs = [
   {
     path: "/",
     title: "首页",
-    isActive (pathname) {
+    isActive(pathname) {
       return pathname === "/" || pathname === "/index"
     }
   }, {

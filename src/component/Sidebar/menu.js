@@ -1,15 +1,7 @@
-/*
- * @Author: Lqf
- * @Date: 2021-10-29 20:51:21
- * @LastEditors: Lqf
- * @LastEditTime: 2021-10-29 21:40:32
- * @Description: 我添加了修改
- */
-
 import { Component } from "react"
 
 class Menu extends Component {
-  render () {
+  render() {
     const { data, name, openName, setOpen } = this.props
     const { title, list } = data
     return (

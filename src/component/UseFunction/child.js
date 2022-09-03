@@ -1,14 +1,6 @@
-/*
- * @Author: Lqf
- * @Date: 2021-10-31 20:14:51
- * @LastEditors: Lqf
- * @LastEditTime: 2021-11-04 23:12:25
- * @Description: 我添加了修改
- */
-
 import { useState, useEffect, useRef } from 'react'
 
-function Child (props) {
+function Child(props) {
   const [count, setCount] = useState(0)
   const [nub, setNub] = useState(5)
   const isMount = useRef(false)

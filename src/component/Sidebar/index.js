@@ -1,11 +1,3 @@
-/*
- * @Author: Lqf
- * @Date: 2021-10-29 20:48:53
- * @LastEditors: Lqf
- * @LastEditTime: 2021-10-30 15:41:30
- * @Description: 我添加了修改
- */
-
 import { Component } from "react"
 import './style.css'
 import Menu from './menu'
@@ -20,7 +12,7 @@ class Sidebar extends Component {
       openName
     })
   }
-  render () {
+  render() {
     const { openName } = this.state
     return (
       <div className="friend-list">

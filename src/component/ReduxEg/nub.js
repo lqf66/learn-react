@@ -1,18 +1,10 @@
-/*
- * @Author: Lqf
- * @Date: 2021-11-14 16:19:43
- * @LastEditors: Lqf
- * @LastEditTime: 2021-11-14 16:30:14
- * @Description: 我添加了修改
- */
-
 import {
   useSelector, useDispatch,
   // useStore
 } from "react-redux"
 
 
-function Nub () {
+function Nub() {
   // console.log(useSelector(state => state.nub))
   // console.log(useDispatch())
   // console.log(useStore())

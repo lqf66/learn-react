@@ -1,11 +1,3 @@
-/*
- * @Author: Lqf
- * @Date: 2021-12-05 16:00:52
- * @LastEditors: Lqf
- * @LastEditTime: 2021-12-05 16:36:21
- * @Description: 我添加了修改
- */
-
 import { Layout } from "antd"
 import { useEffect } from "react"
 import { useDispatch, useSelector } from "react-redux"
@@ -13,7 +5,7 @@ import { useHistory } from "react-router-dom"
 import actions from "../../../store/actions"
 
 
-function LoginView () {
+function LoginView() {
   const { user } = useSelector(state => state.login)
   const dispatch = useDispatch()
   const { action, replace, goBack } = useHistory()

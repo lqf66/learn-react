@@ -1,17 +1,9 @@
-/*
- * @Author: Lqf
- * @Date: 2021-11-14 20:37:31
- * @LastEditors: Lqf
- * @LastEditTime: 2021-11-14 21:01:44
- * @Description: 我添加了修改
- */
-
 import { useState } from "react"
 import Shop from "./shop"
 import Total from "./total"
 
 
-function Shops () {
+function Shops() {
   const [shops, setShops] = useState([
     {
       id: 1,

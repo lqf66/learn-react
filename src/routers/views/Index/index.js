@@ -1,11 +1,3 @@
-/*
- * @Author: Lqf
- * @Date: 2021-12-04 17:03:27
- * @LastEditors: Lqf
- * @LastEditTime: 2021-12-07 21:06:16
- * @Description: 我添加了修改
- */
-
 import { Layout } from 'antd'
 import Nav from '../../../component/CNodeNav'
 import { indexNavs } from '../../../assets/js/navs.config'

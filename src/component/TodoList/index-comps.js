@@ -1,11 +1,3 @@
-/*
- * @Author: Lqf
- * @Date: 2021-10-30 15:40:02
- * @LastEditors: Lqf
- * @LastEditTime: 2021-10-31 13:42:38
- * @Description: 我添加了修改
- */
-
 import { Component } from "react"
 import './index.css'
 import States from "./states"
@@ -81,7 +73,7 @@ class TodoList extends Component {
       }
     }
   }
-  render () {
+  render() {
     const { data, htmlTag } = this.state
     return <div id="todoapp">
       <div className="title">

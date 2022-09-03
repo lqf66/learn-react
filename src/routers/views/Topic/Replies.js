@@ -1,11 +1,3 @@
-/*
- * @Author: Lqf
- * @Date: 2021-12-07 21:59:00
- * @LastEditors: Lqf
- * @LastEditTime: 2021-12-07 22:18:07
- * @Description: 我添加了修改
- */
-
 import { Avatar, Card, Comment, List } from "antd"
 import { UserOutlined } from '@ant-design/icons'
 import FromNow from "../Index/FromNow"

@@ -1,16 +1,8 @@
-/*
- * @Author: Lqf
- * @Date: 2021-12-05 14:42:10
- * @LastEditors: Lqf
- * @LastEditTime: 2021-12-05 15:41:55
- * @Description: 我添加了修改
- */
-
 import ReactDom from "react-dom"
 import { useCallback, useEffect, useRef, useState } from "react"
 
 
-function Popup ({ render, afterClose }) {
+function Popup({ render, afterClose }) {
   const [show, setShow] = useState(true)
   const mask = useRef()
   const close = useCallback(() => {

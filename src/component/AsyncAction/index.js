@@ -1,16 +1,8 @@
-/*
- * @Author: Lqf
- * @Date: 2021-11-19 18:32:00
- * @LastEditors: Lqf
- * @LastEditTime: 2021-11-19 20:06:02
- * @Description: 我添加了修改
- */
-
 import { useEffect } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { getListData } from "./actions"
 
-function AsyncAction () {
+function AsyncAction() {
   const { news } = useSelector(state => state)
   const { loading, list, page } = news
   const dispatch = useDispatch()

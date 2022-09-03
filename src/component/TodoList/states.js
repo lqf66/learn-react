@@ -1,12 +1,4 @@
-/*
- * @Author: Lqf
- * @Date: 2021-10-30 15:54:03
- * @LastEditors: Lqf
- * @LastEditTime: 2021-10-31 13:27:55
- * @Description: 我添加了修改
- */
-
-export default function States ({ data, children }) {
+export default function States({ data, children }) {
   const undoneArr = data.filter(item => !item.done)
   const doneArr = data.filter(item => item.done)
   return <div id="todo-stats">

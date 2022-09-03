@@ -1,15 +1,7 @@
-/*
- * @Author: Lqf
- * @Date: 2021-11-14 16:57:31
- * @LastEditors: Lqf
- * @LastEditTime: 2021-11-14 20:38:41
- * @Description: 我添加了修改
- */
-
 import { memo } from "react"
 import { useDispatch, useSelector } from "react-redux"
 
-function List () {
+function List() {
   const list = useSelector(state => state.list)
   const dispatch = useDispatch()
   const { data, index } = list
@@ -31,7 +23,7 @@ const NewLi = memo(Li, (props, nextProps) => {
   return props.data === nextProps.data // true 不更新
 })
 
-function Li ({ data }) {
+function Li({ data }) {
   const dispatch = useDispatch()
   const { id, title } = data
   console.log(id, 'render')

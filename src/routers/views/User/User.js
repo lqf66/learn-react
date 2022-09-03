@@ -1,11 +1,3 @@
-/*
- * @Author: Lqf
- * @Date: 2021-12-06 21:11:42
- * @LastEditors: Lqf
- * @LastEditTime: 2021-12-07 22:41:08
- * @Description: 我添加了修改
- */
-
 import { Card, Avatar } from "antd"
 import { useEffect } from "react"
 import { useSelector } from "react-redux"

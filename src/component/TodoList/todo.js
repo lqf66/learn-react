@@ -1,17 +1,9 @@
-/*
- * @Author: Lqf
- * @Date: 2021-10-30 15:51:59
- * @LastEditors: Lqf
- * @LastEditTime: 2021-11-05 22:18:31
- * @Description: 我添加了修改
- */
-
 import {
   useState, useRef, useEffect,
   // memo
 } from "react"
 
-function Todo (props) {
+function Todo(props) {
   const { data, changeDone, removeTodo, editTodo } = props
   const { id, title, done } = data
   const [editState, changeEditState] = useState(false)

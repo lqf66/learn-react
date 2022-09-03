@@ -1,10 +1,3 @@
-/*
- * @Author: Lqf
- * @Date: 2021-10-30 15:15:11
- * @LastEditors: Lqf
- * @LastEditTime: 2021-11-19 20:22:20
- * @Description: 我添加了修改
- */
 import { Component } from "react"
 /*
 生命周期:
@@ -41,33 +34,33 @@ class Child extends Component {
       count: 1
     }
   }
-  static getDerivedStateFromProps (props, state) {
+  static getDerivedStateFromProps(props, state) {
     console.log('mount 2 ', 'update 1', "将 props 中的数据映射到 state 中")
     return props // 返回值，是根据 props 要映射到 state 中的数据
   }
-  componentDidMount () {
+  componentDidMount() {
     console.log('mount4', "组件挂载完成")
   }
-  shouldComponentUpdate (nextProps, nextState) {
+  shouldComponentUpdate(nextProps, nextState) {
     // console.log("props",this.props,nextProps);
     // console.log("state",this.state,nextState);
     console.log('update 2', "判断当前组件是否需要更新")
     return true // true 继续完成当前组件更新，false 中断当前组件更新
   }
-  getSnapshotBeforeUpdate (prevProps, prevState) {
+  getSnapshotBeforeUpdate(prevProps, prevState) {
     // 已经构建好新的虚拟DOM即将去更新真实DOM
     console.log('update 4', "获取DOM更新前的快照")
     return document.querySelector("#info").innerHTML
   }
-  componentDidUpdate (prevProps, prevState, prevDOM) {
+  componentDidUpdate(prevProps, prevState, prevDOM) {
     console.log('update5', "组件更新完成", prevDOM)
   }
 
-  componentWillUnmount () {
+  componentWillUnmount() {
     console.log("组件即将卸载")
     window.onresize = null
   }
-  render () {
+  render() {
     console.log(3, "构建虚拟DOM")
     const { parentInfo, count } = this.state
     return <>

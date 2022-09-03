@@ -1,10 +1,3 @@
-/*
- * @Author: Lqf
- * @Date: 2021-10-27 20:14:10
- * @LastEditors: Lqf
- * @LastEditTime: 2021-11-05 22:13:01
- * @Description: 我添加了修改
- */
 import { createStore } from 'redux'
 /**
  *  store 仓库,用于对状态进行管理

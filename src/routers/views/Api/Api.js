@@ -1,17 +1,9 @@
-/*
- * @Author: Lqf
- * @Date: 2021-12-04 17:03:27
- * @LastEditors: Lqf
- * @LastEditTime: 2021-12-05 15:53:52
- * @Description: 我添加了修改
- */
-
 import { Layout } from 'antd'
 import { useState } from 'react'
 import Popup from '../../../component/Popup'
 import rc_alert from '../../../component/Alert'
 
-function APIView () {
+function APIView() {
   const [showPopup, setShowPopup] = useState(false)
   return <Layout.Content className='page-content'>
     {showPopup ? <Popup

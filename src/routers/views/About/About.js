@@ -1,10 +1,3 @@
-/*
- * @Author: Lqf
- * @Date: 2021-11-21 12:14:45
- * @LastEditors: Lqf
- * @LastEditTime: 2021-12-07 22:47:18
- * @Description: 我添加了修改
- */
 import { Card, Breadcrumb } from 'antd'
 import { useGuards } from '../../../hooks/useGuard'
 import { Link } from "react-router-dom"

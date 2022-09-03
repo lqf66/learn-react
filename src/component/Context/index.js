@@ -1,11 +1,3 @@
-/*
- * @Author: Lqf
- * @Date: 2021-10-29 22:12:52
- * @LastEditors: Lqf
- * @LastEditTime: 2021-11-27 17:22:36
- * @Description: 我添加了修改
- */
-
 import { Component } from "react"
 import Child from "./child"
 import { Provider } from "./context"
@@ -26,7 +18,7 @@ class Context extends Component {
       nub: this.state.nub + 5
     })
   }
-  render () {
+  render() {
     const { count, nub } = this.state
     return (
       // value 是传递给后代的值

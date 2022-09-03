@@ -1,11 +1,3 @@
-/*
- * @Author: Lqf
- * @Date: 2021-12-06 21:10:35
- * @LastEditors: Lqf
- * @LastEditTime: 2021-12-07 22:06:04
- * @Description: 我添加了修改
- */
-
 import { Alert } from "antd"
 import { Fragment, useEffect } from "react"
 import { useSelector } from "react-redux"

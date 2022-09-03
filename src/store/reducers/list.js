@@ -1,12 +1,4 @@
-/*
- * @Author: Lqf
- * @Date: 2021-11-14 16:43:28
- * @LastEditors: Lqf
- * @LastEditTime: 2021-11-14 17:12:49
- * @Description: 我添加了修改
- */
-
-export default function list (list = {
+export default function list(list = {
   index: 2,
   data: [
     {
